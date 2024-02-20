@@ -18,6 +18,9 @@
     <class type="nav2_costmap_2d::DenoiseLayer" base_class_type="nav2_costmap_2d::Layer">
       <description>Filters noise-induced freestanding obstacles or small obstacles groups</description>
     </class>
+    <class type="nav2_costmap_2d::SemanticLayer" base_class_type="nav2_costmap_2d::Layer">
+      <description>Marks and clears grid cells based on the semantic meaning of the observation e.g. obtained from AI model</description>
+    </class>
   </library>
 
   <library path="filters">
